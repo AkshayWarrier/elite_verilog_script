@@ -1,2 +1,2 @@
 # elite_verilog_script
-yes
+Run verilog code using Icarus Verilog and simulate using GTKWave
