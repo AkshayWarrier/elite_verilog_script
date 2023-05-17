@@ -5,5 +5,5 @@ cd $module_name
 ls *.v > filelist.txt
 iverilog -o $module_name -c filelist.txt
 ./$module_name
-gtkwave dump.vcd
+gtkwave dump.vcd &> /dev/null &
 cd ..
